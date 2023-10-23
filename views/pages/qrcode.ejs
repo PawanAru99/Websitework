@@ -1,0 +1,31 @@
+<%- include('../partials/head') %>
+    <%- include('../partials/header') %>
+
+    <body>
+        <div class="container">
+            <div class="card-body">
+                <h2 class="message" id="message">शाखेत पैसे भरण्यासाठी कृपया QR Code कोड निवडा</h2>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-primary" onClick="showImage('first')">Washim Main Branch</button>
+                    <button type="button" class="btn btn-primary" onClick="showImage('second')">Washim Branch</button>
+                    <button type="button" class="btn btn-primary" onClick="showImage('third')">Risod Branch</button>
+                    <button type="button" class="btn btn-primary" onClick="showImage('four')">Mangulphir Branch</button>
+                    <button type="button" class="btn btn-primary" onClick="showImage('five')">Manora Branch</button>
+                    <button type="button" class="btn btn-primary" onClick="showImage('six')">Malegoan Branch</button>
+                    <button type="button" class="btn btn-primary" onClick="showImage('seven')">Karanja Branch</button>
+                </div>
+                <div class="content" id="qrimage" style="align-items: center;position: absolute;top: 322px;left: 50%;transform: translate(-50%, -50%);position: relative;">
+                    <div id="first"><img class="img-responsive" src="./img/qrcodewashim.jpg" alt="Washim" /></div>
+                    <div id="second"><img class="img-responsive" src="./img/qrcodewashimbranch.jpg" alt="Washim Branch" /></div>
+                    <div id="third"><img class="img-responsive" src="./img/qrcodeRisod.jpg" alt="Risod" /></div>
+                    <div id="four"><img class="img-responsive" src="./img/qrcodemangulpir.jpg" alt="Mangulphir" /></div>
+                    <div id="five"><img class="img-responsive" src="./img/qrcodeManora.jpg" alt="Manora" /></div>
+                    <div id="six"><img class="img-responsive" src="./img/qrcodemalegoan.jpg" alt="Malegoan" /></div>
+                    <div id="seven"><img class="img-responsive" src="./img/qrcodekaranja.jpg" alt="Karanja" /></div>
+                </div>
+            </div>
+        </div>
+    </body>
+    
+
+        <%- include('../partials/footer') %>

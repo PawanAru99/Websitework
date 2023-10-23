@@ -1,0 +1,19 @@
+<%- include('../partials/head') %>
+    <%- include('../partials/header') %>
+        <body>
+            <div class="container-fluid">
+                <div class="col-10">
+                    <h3>IMPORTANT Downloads</h3>
+
+                    <ul type="1">
+                        <% for (let download of downloads) { %>
+                            <li><a href="<%= download.link %>">
+                                    <%= download.name %>
+                                </a></li>
+                            <% } %>
+                    </ul>
+                </div>
+            </div>
+        </body>
+
+        <%- include('../partials/footer') %>

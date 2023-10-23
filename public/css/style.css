@@ -47,6 +47,20 @@ body {
 }
 
 
+/* Add styles for centering container */
+.d-flex.justify-content-center {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-color: #007bff;
+    margin: 20px;
+    padding: 0;
+    text-align: center;
+}
+
+
 /* Update the container styles */
 .container {
     /* Remove border settings */
@@ -63,3 +77,386 @@ body {
 }
 
 
+
+
+/* .container{ */
+
+/* border-spacing: 2px; */
+/* border: #007bff; */
+/* border-color: #d62d1a;    yyyyyyyyy */
+/* background-color: brown; */
+/* margin: 20px;  yyyyyyy */
+/* padding: 0px;    yyyy */
+/* border-color: blueviolet; */
+/* position: absolute; */
+/* position: relative; */
+/* top: 50%; */
+/* left: 50%; */
+/* transform: translate(-50%, -50%); */
+/* max-width: fit-content; */
+/* width: 100%; */
+/* background: #dad8d8 ; */
+/* border-radius: 7px; */
+/* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); */
+/* for login form */
+/* max-width: 400px; */
+/* background-color: #fff; */
+/* left: auto;
+    align-items: center;
+    justify-content: center; */
+/* box-shadow: 0px 0px 10px 10px rgba(82, 84, 83, 0.3); yyyyyyy */
+/* } */
+
+
+/* Update the center-container styles */
+/* .center-container { */
+/* display: flex;
+    justify-content: center;
+    align-items: center; */
+/* min-height: 100vh; */
+/* background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px; */
+/* } */
+
+
+/* .img-responsive#mainlogo{
+    width: 100%;
+
+} */
+
+#blogpost {
+    color: rebeccapurple;
+    border-color: blueviolet;
+    /* position: absolute; */
+    /* position: relative; */
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    /* max-width: 600px; */
+    /* width: 100%; */
+    background: #939393;
+    border-radius: 7px;
+    /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); */
+    /* for login form */
+    /* max-width: 400px; */
+    /* padding: 20px; */
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    /* box-shadow: 20px 20px rgba(187, 183, 183, 0.3);  */
+
+}
+
+#loginpg {
+    border-left: #007bff;
+}
+
+
+
+
+.about-section {
+    text-align: center;
+    padding: 30px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+}
+
+
+.container .registration {
+    display: none;
+}
+
+#check:checked~.registration {
+    display: block;
+}
+
+#check:checked~.login {
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.container .form {
+    padding: 2rem;
+}
+
+.form header {
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.form input {
+    height: 60px;
+    width: 100%;
+    padding: 0 15px;
+    font-size: 17px;
+    margin-bottom: 1.3rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+}
+
+.form input:focus {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form a {
+    font-size: 16px;
+    color: #009579;
+    text-decoration: none;
+}
+
+.form a:hover {
+    text-decoration: underline;
+}
+
+.form input.button {
+    color: #fff;
+    background: #009579;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 1.7rem;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.form input.button:hover {
+    background: #006653;
+}
+
+.signup {
+    font-size: 17px;
+    text-align: center;
+}
+
+.signup label {
+    color: #009579;
+    cursor: pointer;
+}
+
+.signup label:hover {
+    text-decoration: underline;
+}
+
+
+.wrapper {
+    text-align: center;
+    justify-content: center;
+    /* margin-bottom: 20px; */
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+i {
+    font-size: 18px;
+    margin-right: 10px;
+    color: #666;
+    display: block;
+}
+
+input[type="text"],
+input[type="password"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pass {
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.signup-link {
+    text-align: center;
+}
+
+/* a {
+    color: #007bff;
+} */
+
+.col-12.col-md-6#graph{
+    justify-content: center;
+    display: block;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+
+    /* You can adjust other styles as needed */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .container {
+        max-width: 80%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .container {
+        max-width: 70%;
+    }
+}
+
+
+.content#qrimage {
+    width: 400px;
+    height: 600px;
+}
+
+.container#graph {
+    height: 300px;
+    width: 400px;
+}
+
+label{
+    text-align: center;
+}
+
+.container#profiledetailsimg {
+    text-align: center;
+    /* width: auto;
+    height: auto; */
+    /* width: fit-content;
+    height: fit-content; */
+
+    /* border-color: antiquewhite; */
+}
+
+
+#carousalimage {
+    padding: 0px;
+}
+
+.caption {
+    background-color:none;
+    color: rgb(248, 242, 242);
+    /* opacity: 100%; */
+    text-shadow: none;
+    padding: 0;
+    margin: 0;
+    /* background-color: bisque; */
+    /* display: flex; */
+    /* text-align: center;
+      justify-content: space-between; */
+
+}
+
+/* Default styles for all screen sizes */
+#slidingimage .item img {
+    height: 500px; /* Adjust the height as needed */
+    width: auto;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Media query for screens with a maximum width of 768px (typical for mobile devices) */
+@media (max-width: 768px) {
+    #slidingimage .item img {
+        height: 300px;
+        max-width: 100%;
+    }
+}
+
+.footer-container{
+    position: relative;
+}
+
+#scrollnotice {
+    /* color: aliceblue; */
+    color: #f4efef;
+    text-decoration: solid;
+    padding: 5px;
+    margin: 5px;
+    font-size: large;
+}
+
+
+.carousel-inner#slidingimage{
+    padding: 0rem;
+    margin: 0rem;
+
+}
+
+
+table.table-bordered#table1{
+    padding: 0px;
+}
+.table.table-bordered{
+    padding: 0%;
+}
+.small-print{
+    text-align: center;
+    padding: 10px;
+}
+
+/* .footer-class{
+    background-color: #474e5d;
+    color: #f2f2f2;
+} */
+
+
+/* .small-print a {
+    color: orange; 
+    text-decoration: none;
+}
+
+.footer-container a {
+    color: green; 
+    text-decoration: none;
+}
+#name a {
+    color: red; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: red;
+} */
+
+/* Style for the links */
+.container .col-10 a,#footerlinks a, .footer-container a, #name a {
+    color: orange; 
+    text-decoration: none; 
+}
+
+.container .message {
+    color: #f2f2f2;
+    
+}
